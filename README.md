@@ -1,27 +1,21 @@
-# AngularBooksPWA
+#run
+npm install @angular/material@11 @angular/cdk@11 @angular/animations@11
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
+#add
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-## Development server
+# add to tsconfig json file
+"strictPropertyInitialization": false
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#run
+npm install --save @angular/flex-layout @angular/cdk
 
-## Code scaffolding
+#run
+npm i @angular/cdk @angular/material @angular/flex-layout @angular/animations @angular/forms
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#run
+npm install -g http-server-spa
 
-## Build
+#build
+ng build --prod --source-map
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
